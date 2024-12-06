@@ -3,7 +3,7 @@ import ball
 import random
 
 
-class Simulation:
+class BallSimulation:
     def __init__(self, num_balls):
         self.num_balls = num_balls
         turtle.speed(0)
@@ -49,6 +49,6 @@ class Simulation:
             turtle.update()
 
 
-simulation = Simulation(num_balls=5)
+simulation = BallSimulation(num_balls=5)
 simulation.run()
 
