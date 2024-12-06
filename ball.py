@@ -28,10 +28,10 @@ class Ball:
         self.y += self.vy * dt
 
     def update_velocity(self):
-        if abs(self.x) > self.canvas_width:
+        if abs(self.x) > (self.canvas_width - self.size):
             self.vx = -self.vx
 
-        if abs(self.y) > self.canvas_height:
+        if abs(self.y) > (self.canvas_height - self.size):
             self.vy = -self.vy
 
 
