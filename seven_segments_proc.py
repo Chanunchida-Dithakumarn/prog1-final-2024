@@ -1,5 +1,4 @@
 import turtle
-import run_ball
 
 
 class SevenSegments:
